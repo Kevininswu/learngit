@@ -11,7 +11,7 @@ class LRUCache {
     int capacity;
     int size;
     int list;
-     int list2;
+     int list2=1;
 
     class BiLinked {
         BiLinked prev;
