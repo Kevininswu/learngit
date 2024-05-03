@@ -8,6 +8,7 @@ class LRUCache {
     Map<Integer, BiLinked> map;
     int capacity;
     int size;
+    int size2;
 
     class BiLinked {
         BiLinked prev;
