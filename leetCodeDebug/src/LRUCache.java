@@ -1,3 +1,5 @@
+package src;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,6 +10,7 @@ class LRUCache {
     Map<Integer, BiLinked> map;
     int capacity;
     int size;
+    int list;
 
     class BiLinked {
         BiLinked prev;
